@@ -530,10 +530,10 @@ $baseurl: '{{ site.baseurl }}/images';
 
 		&.left,
 		&.right {
-			max-width: 40%;
+			max-width: auto;
 
 			img {
-				width: 100%;
+				width: auto;
 			}
 		}
 
