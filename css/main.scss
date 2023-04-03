@@ -534,7 +534,8 @@ $baseurl: '{{ site.baseurl }}/images';
 			max-height: 25%;
 
 			img {
-				width: 100%;
+				max-width: 25%;
+				max-height: 25%;
 			}
 		}
 
