@@ -530,12 +530,12 @@ $baseurl: '{{ site.baseurl }}/images';
 
 		&.left,
 		&.right {
-			max-width: 25%;
-			max-height: 25%;
+			max-width: 50%;
+			max-height: 50%;
 
 			img {
-				max-width: 25%;
-				max-height: 25%;
+				max-width: 50%;
+				max-height: 50%;
 			}
 		}
 
@@ -1254,7 +1254,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		&.style4 {
-			background-color: transparent;
+			background-color: _palette(bg);
 		}
 
 		&.style5 {
