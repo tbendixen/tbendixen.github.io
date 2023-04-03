@@ -1239,6 +1239,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 		&.alt {
 			padding: 0;
+			background-color: _palette(bg);
 		}
 
 		&.style1 {
