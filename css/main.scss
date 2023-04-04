@@ -530,12 +530,12 @@ $baseurl: '{{ site.baseurl }}/images';
 
 		&.left,
 		&.right {
-			max-width: 62.5%;
-			max-height: 62.5%;
+			max-width: 61%;
+			max-height: 61%;
 
 			img {
-				max-width: 62.5%;
-				max-height: 62.5%;
+				max-width: 61%;
+				max-height: 61%;
 			}
 		}
 
