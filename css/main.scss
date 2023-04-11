@@ -514,6 +514,8 @@ $baseurl: '{{ site.baseurl }}/images';
 		img {
 			border-radius: 3px;
 			display: block;
+			max-width: 100%;
+			height: auto;
 		}
 
 		&.left {
