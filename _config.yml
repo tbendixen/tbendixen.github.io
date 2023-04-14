@@ -57,6 +57,7 @@ markdown: kramdown
 #sass:
 #  style: compressed
 
-[[menu.main]]
-url = 'https://github.com/tbendixen'
-title = "English"
+[menu]
+  [[menu.main]]
+  url = 'https://github.com/tbendixen'
+  title = "English"
