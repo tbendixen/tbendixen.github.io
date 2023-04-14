@@ -56,9 +56,3 @@ social:
 markdown: kramdown
 #sass:
 #  style: compressed
-
-menu:
-  main:
-      - Name: "English"
-        url = "https://github.com/tbendixen"
-        Weight: -110
