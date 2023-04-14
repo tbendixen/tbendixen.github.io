@@ -57,7 +57,8 @@ markdown: kramdown
 #sass:
 #  style: compressed
 
-[menu]
-  [[menu.main]]
-  url = 'https://github.com/tbendixen'
-  title = "English"
+menu:
+  main:
+      - Name: "English"
+        url = "https://github.com/tbendixen"
+        Weight: -110
