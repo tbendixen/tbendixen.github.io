@@ -1843,8 +1843,8 @@ $baseurl: '{{ site.baseurl }}/images';
 /* Main Style Stars from here  */
 .flag {
   position: relative;
-  width: 50px;
-  height: 33.3px;
+  width: 25px;
+  height: 16px;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
   overflow: hidden;
 }
@@ -1856,9 +1856,9 @@ $baseurl: '{{ site.baseurl }}/images';
 .denmark::before {
   position: absolute;
   content: "";
-  height: 33.3px;
-  right: 32.5px;
-  left: 12.5px;
+  height: 16px;
+  right: 15.5px;
+  left: 6.25px;
   background-color: white;
 }
 
@@ -1866,7 +1866,7 @@ $baseurl: '{{ site.baseurl }}/images';
   position: absolute;
   content: "";
   width: 100%;
-  top: 14.2px;
-  bottom: 14.2px;
+  top: 7px;
+  bottom: 7px;
   background-color: white;
 }
