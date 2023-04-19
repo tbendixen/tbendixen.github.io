@@ -1856,9 +1856,9 @@ $baseurl: '{{ site.baseurl }}/images';
 .denmark::before {
   position: absolute;
   content: "";
-  height: 200px;
-  right: 195px;
-  left: 75px;
+  height: 100px;
+  right: 92.5px;
+  left: 35.5px;
   background-color: white;
 }
 
@@ -1866,7 +1866,7 @@ $baseurl: '{{ site.baseurl }}/images';
   position: absolute;
   content: "";
   width: 100%;
-  top: 85px;
-  bottom: 85px;
+  top: 40.25px;
+  bottom: 40.25px;
   background-color: white;
 }
