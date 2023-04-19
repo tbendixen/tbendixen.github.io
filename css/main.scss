@@ -1839,3 +1839,34 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 	}
+
+/* Main Style Stars from here  */
+.flag {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.denmark {
+  background-color: #c70c29;
+}
+
+.denmark::before {
+  position: absolute;
+  content: "";
+  height: 200px;
+  right: 195px;
+  left: 75px;
+  background-color: white;
+}
+
+.denmark::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  top: 85px;
+  bottom: 85px;
+  background-color: white;
+}
