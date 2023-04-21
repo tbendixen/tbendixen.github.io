@@ -12,8 +12,10 @@
             {% if my_page.title %}
             <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
             {% endif %}
-            {% endfor %}
-            <li><a href="https://theissbendixen.dk">Dansk <div class="flag denmark"></div> </a></li>
+            {% endfor %}            
+            <li><a href="https://theissbendixen.dk">
+              Dansk <i class="fa fa-globe" style="font-size:20px"></i></a></li>
+           <!-- <li><a href="https://theissbendixen.dk">Dansk <div class="flag denmark"></div> </a></li> -->
           </ul>
         </div>
       </li>
